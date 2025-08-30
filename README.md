@@ -1,4 +1,13 @@
+<p align="center">
+  <img src="./assets/banner_ezgestad.png" alt="EZ-GESTION-AD Banner" />
+</p>
+
 # 🛠️ EZ-GESTION-AD
+
+[![PowerShell](https://img.shields.io/badge/PowerShell-5+-5391FE?logo=powershell&logoColor=white)](https://learn.microsoft.com/fr-fr/powershell/)  
+[![Active Directory](https://img.shields.io/badge/Active%20Directory-Windows%20Server%202012%2B-2564AE?logo=windows&logoColor=white)](https://learn.microsoft.com/fr-fr/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)  
+[![License](https://img.shields.io/badge/Licence-Pédagogique-green)](#-licence)  
+[![Status](https://img.shields.io/badge/Status-Stable-brightgreen)]()  
 
 **EZ-GESTAD.ps1** est un script PowerShell interactif permettant d’administrer un domaine **Active Directory** à travers une interface en menu texte simple et efficace.  
 Il intègre à la fois des fonctions d’**administration** (OU, utilisateurs, groupes, GPO) et de **supervision** (logs, processus, services).
@@ -7,16 +16,25 @@ Il intègre à la fois des fonctions d’**administration** (OU, utilisateurs, g
 
 ## 📌 Fonctionnalités principales
 
-### 🎛️ Menu principal
-- `0` ➝ Quitter
-- `1` ➝ Gestion des **OU** (Unités d’organisation)
-- `2` ➝ Gestion des **Utilisateurs**
-- `3` ➝ Gestion des **Groupes**
-- `4` ➝ Gestion des **GPO**
-- `5` ➝ Gestion des **Journaux d’événements**
-- `6` ➝ Gestion des **Processus**
-- `7` ➝ Gestion des **Services**
-- `8` ➝ **Supervision corrective** (relances automatiques)
+🎛️ Menu interactif avec 8 modules :
+- Gestion des **OU**
+- Gestion des **Utilisateurs**
+- Gestion des **Groupes**
+- Gestion des **GPO**
+- Gestion des **Journaux d’événements**
+- Gestion des **Processus**
+- Gestion des **Services**
+- **Supervision corrective**
+
+---
+
+## 📷 Aperçu visuel
+
+### 🖼️ Capture d’écran du menu principal
+![Screenshot Menu Principal](./assets/screenshot_menu.png)
+
+### 🎞️ Démonstration en animation
+![Demo GIF](./assets/demo_ezgestad.gif)
 
 ---
 
@@ -73,7 +91,7 @@ Il intègre à la fois des fonctions d’**administration** (OU, utilisateurs, g
 
 ---
 
-## 📷 Schéma du menu
+## 🗺️ Schéma du menu
 
 👉 Voir le schéma généré : [EZ_GESTAD_schema.svg](./EZ_GESTAD_schema.svg)
 
@@ -83,6 +101,6 @@ Il intègre à la fois des fonctions d’**administration** (OU, utilisateurs, g
 
 1. Copier le script `EZ_GESTAD.ps1` sur votre contrôleur de domaine.  
 2. Lancer PowerShell en **administrateur**.  
-3. Exécuter le script :  
+3. Exécuter :  
    ```powershell
    .\EZ_GESTAD.ps1
