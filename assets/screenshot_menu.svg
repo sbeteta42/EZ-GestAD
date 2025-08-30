@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1400" height="860" viewBox="0 0 1400 860" style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &quot;Liberation Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size:24px;">
+  <rect x="0" y="0" width="1400" height="860" fill="#0b0f17"/>
+  <rect x="40" y="40" rx="12" ry="12" width="1320" height="780" fill="#111827" stroke="#1f2937" stroke-width="2"/>
+  <rect x="40" y="40" rx="12" ry="12" width="1320" height="56" fill="#0f172a" stroke="#1f2937" stroke-width="2"/>
+  <rect x="40" y="84" width="1320" height="12" fill="#0f172a"/>
+  <text x="56" y="76" fill="#e5e7eb">Windows PowerShell — EZ-GESTION-AD</text>
+  <circle cx="1344" cy="58" r="7" fill="#ef4444"/>
+  <circle cx="1320" cy="58" r="7" fill="#f59e0b"/>
+  <circle cx="1296" cy="58" r="7" fill="#22c55e"/>
+  <text x="64" y="120" fill="#22d3ee">========================================</text>
+  <text x="64" y="154" fill="#22d3ee">           MENU PRINCIPAL</text>
+  <text x="64" y="188" fill="#22d3ee">========================================</text>
+  <text x="64" y="222" fill="#e5e7eb"/>
+  <text x="64" y="256" fill="#fde047"> 0 - Quitter</text>
+  <text x="64" y="290" fill="#fde047"> 1 - Configuration des OU</text>
+  <text x="64" y="324" fill="#fde047"> 2 - Configuration des USERS</text>
+  <text x="64" y="358" fill="#fde047"> 3 - Configuration des Groupes</text>
+  <text x="64" y="392" fill="#fde047"> 4 - Configuration des GPO</text>
+  <text x="64" y="426" fill="#fde047"> 5 - Gestion des événements</text>
+  <text x="64" y="460" fill="#fde047"> 6 - Gestion des Processus</text>
+  <text x="64" y="494" fill="#fde047"> 7 - Gestion des Services</text>
+  <text x="64" y="528" fill="#fde047"> 8 - Supervision corrective des Services</text>
+  <text x="64" y="562" fill="#e5e7eb"/>
+  <text x="64" y="596" fill="#9ca3af"> Veuillez saisir votre choix (0-8): _</text>
+  <rect x="568" y="576" width="10" height="20" fill="#4ade80"/>
+</svg>
