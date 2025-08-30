@@ -33,9 +33,6 @@ Il intègre à la fois des fonctions d’**administration** (OU, utilisateurs, g
 ### 🖼️ Capture d’écran du menu principal
 ![Screenshot Menu Principal](./assets/screenshot_menu.png)
 
-### 🎞️ Démonstration en animation
-![Demo GIF](./assets/demo_ezgestad.gif)
-
 ---
 
 ## 📂 Modules détaillés
